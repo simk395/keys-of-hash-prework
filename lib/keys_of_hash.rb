@@ -3,9 +3,7 @@ class Hash
     # code goes here
     i = []
     arguments.each do |item|
-      if item == Hash
-        item << Hash
-      end
+      i << item
     end
   end
 end
